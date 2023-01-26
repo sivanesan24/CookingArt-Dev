@@ -1,0 +1,17 @@
+<div class="main-form">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label for="userName">UserName: </label>
+            <input id="userName" type="text" autocomplete="off" formControlName="userName">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input id="password" type="text" autocomplete="off" formControlName="password">
+        </div>
+        <div>
+            <button [disabled]="!loginForm.valid" type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <ngx-loading [show]="loading" [config]="{ fullScreenBackdrop: true }"></ngx-loading>
+</div>

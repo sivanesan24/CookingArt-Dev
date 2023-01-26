@@ -1,0 +1,31 @@
+.main-content {
+    padding: 10px;
+}
+
+.img-content {
+    text-align: center;
+    font-weight: 600;
+    color: #5C4033;
+    cursor: pointer;
+}
+
+.img-content > img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.main-content > div:last-child {
+    margin-top: 60px;
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: medium;
+    color: #8b9a46;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-content {
+    border-top: 5px solid #8b9a46;
+}

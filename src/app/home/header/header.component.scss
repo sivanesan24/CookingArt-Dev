@@ -1,0 +1,65 @@
+.custom-main {
+    // border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.custom {
+    width: 127px;
+    height: 40px;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.text-white {
+    padding: 10px;
+    padding-top: 14px;
+}
+
+.button-content {
+    padding: 15px;
+    .drop-down {
+        cursor: pointer;
+        padding: 10px;
+        font-weight: 700;
+        margin-right: 5%;
+        .carot {
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+.app-name {
+    padding: 15px;
+    padding-top: 18px;
+    cursor: pointer;
+    h4 {
+        color: brown;
+        font-weight: 700;
+    }
+}
+
+.head {
+    // border-bottom: 3px solid #1f6a7d9c;
+    // padding: 15px;
+    width: 100%;
+    z-index: 99;
+    background: white;
+    position: -webkit-sticky;
+    position: fixed;
+    // height: 120px;
+    transition: 0.3s;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.scrolled {
+    transition: 0.3s;
+    background: #84bcd8f8;
+    height: 80px;
+    border-bottom: 2px solid #1f6a7de1;
+}

@@ -1,0 +1,17 @@
+.main-form {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.main-form > form > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-bottom: 15px;
+
+    button {
+        margin-left: 25%;
+    }
+}

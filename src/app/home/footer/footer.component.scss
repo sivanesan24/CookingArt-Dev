@@ -1,0 +1,84 @@
+.footer-main {
+    background-color: white;
+    height: 127px;
+}
+
+.logo-name > p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #541212;
+}
+
+.logo-cnt {
+    margin-left: 3%;
+}
+
+.logo-descrp > p {
+    width: 400px;
+    font-size: 20px;
+}
+
+.logo-contact > input {
+    width: 285px;
+    height: 54px;
+    margin-right: 5px;
+}
+
+.logo-contact > button {
+    border: 1px solid transparent;
+    height: 54px;
+    width: 131px;
+    background: #541212;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.logo-details > ul {
+    padding: 0;
+}
+
+.logo-details > ul > li {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.logo-details > ul > li > i {
+    padding: 20px;
+    padding-right: 15px;
+    color: #541212;
+}
+
+.logo-icon > a {
+    margin: 15px;
+    font-size: 35px;
+}
+
+.logo-icon > a > i {
+    color: #541212;
+}
+
+// @media only screen and (max-width: 1200px) {
+//     .footer-main {
+//         display: flex;
+//         justify-content: space-evenly;
+//         width: auto;
+//     }
+// }
+
+@media only screen and (max-width: 500px) {
+    .footer-main {
+        text-align: center;
+    }
+    .cnct-det {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .logo-contact > button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .logo-details {
+        margin-top: -20px;
+    }
+}
