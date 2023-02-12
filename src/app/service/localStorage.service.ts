@@ -59,7 +59,7 @@ export class LocalStorageService {
   public decodeToken() {
     const jwtHelper = new JwtHelperService();
     const token = this.getToken()!;
-    return jwtHelper.decodeToken(token);
+    return token == "undefined" ? null : jwtHelper.decodeToken(token);
   }
   
 }
